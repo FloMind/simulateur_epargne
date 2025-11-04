@@ -12,7 +12,7 @@ Développée dans le cadre du projet **MindEdge Finance**
 
 ## 🚀 Démo en ligne
 
-👉 [Accéder à l’application sur Streamlit Cloud](https://simulateur-epargne.streamlit.app)
+👉 [Accéder à l’application sur Streamlit Cloud](https://simulateurepargne-gjewwens3nhfy2tmyursmr.streamlit.app)
 👉 [Aperçu de l’application](assets/preview.png)
 
 ---
