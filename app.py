@@ -4,8 +4,9 @@ import pandas as pd
 import plotly.express as px
 
 # Charger le style futuriste
-with open("assets/style.css") as f:
+with open("assets/style.css", "r", encoding="utf-8") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
 
 st.set_page_config(page_title="Simulateur d'Épargne", layout="wide")
 
