@@ -1,5 +1,10 @@
 # 💰 Simulateur d'Épargne et de Capitalisation
 
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-red?logo=streamlit)](https://simulateur-epargne.streamlit.app)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![Poetry](https://img.shields.io/badge/Poetry-Environment%20Manager-8A2BE2?logo=poetry)](https://python-poetry.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Une application **Streamlit** simple et interactive pour simuler la croissance de l'épargne avec des intérêts composés.
 
 ---
