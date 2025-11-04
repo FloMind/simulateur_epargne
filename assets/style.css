@@ -44,3 +44,86 @@ div[data-testid="stMarkdownContainer"], .stPlotlyChart, .stVegaLiteChart {
         transform: scale(1.02);
         box-shadow: 0 0 20px rgba(0,255,255,0.5);
     }
+
+/* === MindEdge Futurist X v2 === */
+/* Éclat néon animé + transitions fluides */
+
+@keyframes neonPulse {
+    0%, 100% {
+        text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #0077ff;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #00e0ff, 0 0 40px #00bfff, 0 0 60px #0077ff;
+    }
+}
+
+@keyframes bgFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* --- Titres et labels --- */
+h1, h2, h3, label {
+    animation: neonPulse 4s infinite ease-in-out;
+    letter-spacing: 0.5px;
+}
+
+/* --- Graphiques et conteneurs --- */
+div[data-testid="stMarkdownContainer"], .stPlotlyChart, .stVegaLiteChart {
+    background: linear-gradient(135deg, rgba(0,20,40,0.7), rgba(0,60,80,0.4));
+    border: 1px solid rgba(0,255,255,0.2);
+    box-shadow: 0 0 15px rgba(0,255,255,0.05);
+    backdrop-filter: blur(6px);
+    transition: all 0.5s ease;
+}
+
+    div[data-testid="stMarkdownContainer"]:hover {
+        box-shadow: 0 0 25px rgba(0,255,255,0.2);
+        transform: scale(1.01);
+    }
+
+/* --- Slider futuriste --- */
+[data-baseweb="slider"] div {
+    background: linear-gradient(90deg, #00ffff, #ff00ff, #00ffff);
+    background-size: 300% 300%;
+    animation: bgFlow 6s ease infinite;
+    border-radius: 8px;
+    border: 1px solid rgba(0,255,255,0.4);
+}
+
+/* --- Boutons holographiques --- */
+.stButton > button {
+    background: linear-gradient(90deg, #00ffff, #00bfff, #00ffff);
+    background-size: 200% auto;
+    color: #001020;
+    font-weight: 700;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0,255,255,0.5);
+    transition: 0.4s;
+    animation: bgFlow 5s linear infinite;
+}
+
+    .stButton > button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px rgba(0,255,255,0.8);
+        color: #fff;
+    }
+
+/* --- Pied de page --- */
+footer {
+    text-align: center;
+    color: rgba(0,255,255,0.7);
+    font-size: 0.9rem;
+    text-shadow: 0 0 5px #00ffff;
+}
