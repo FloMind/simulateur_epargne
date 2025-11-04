@@ -13,7 +13,7 @@ Développée dans le cadre du projet **MindEdge Finance**
 ## 🚀 Démo en ligne
 
 <p align="center">
-  <a href="https://simulateurepargne-gjewwens3nhfy2tmyursmr.streamlit.app" target="_blank">
+  <a href="https://simulateurepargne-t6iz2jdurwippsrkxf6aeq.streamlit.app" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20Lancer%20le%20simulateur%20d'épargne-2C2C2C?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Lancer l'application Streamlit">
   </a>
 </p>
