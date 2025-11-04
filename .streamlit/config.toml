@@ -1,18 +1,7 @@
 [theme]
-# --- Palette principale ---
-primaryColor = "#00E0FF"                # Cyan néon futuriste
-backgroundColor = "#0D1117"             # Fond profond style tech
-secondaryBackgroundColor = "#161B22"    # Panneaux légèrement plus clairs
-textColor = "#E6EDF3"                   # Texte clair, lisible sur fond sombre
-
-# --- Typographie ---
-font = "sans serif"                     # Lisible, moderne (Inter/Roboto)
-
-# --- Bonus : ambiance visuelle globale ---
-# Ces variables ne sont pas natives, mais Streamlit les supporte dans certains thèmes personnalisés :
-# Elles ne cassent rien même si ignorées.
-accentColor = "#00E0FF"
-borderColor = "#1F2A37"
-borderRadius = "8px"
-
+primaryColor = "#00FFFF"
+backgroundColor = "#050A0F"
+secondaryBackgroundColor = "#0B1621"
+textColor = "#E0E8F0"
+font = "sans serif"
 

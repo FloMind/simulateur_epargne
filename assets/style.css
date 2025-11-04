@@ -1,0 +1,46 @@
+/* --- MindEdge Futurist X --- */
+body {
+    background: radial-gradient(circle at top left, #0B1621, #050A0F);
+    color: #E0E8F0;
+    font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+/* Barre latérale */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, rgba(10,15,25,0.95) 0%, rgba(5,10,15,1) 100%);
+    border-right: 1px solid rgba(0,255,255,0.1);
+    box-shadow: 0 0 15px rgba(0,255,255,0.05);
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #00FFFF;
+    text-shadow: 0 0 10px rgba(0,255,255,0.5);
+}
+
+/* Graphiques & cartes */
+div[data-testid="stMarkdownContainer"], .stPlotlyChart, .stVegaLiteChart {
+    background-color: rgba(11, 22, 33, 0.4);
+    border: 1px solid rgba(0,255,255,0.08);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,255,255,0.04);
+}
+
+/* Slider */
+[data-baseweb="slider"] div {
+    background: linear-gradient(90deg, #00FFFF, #FF00FF);
+}
+
+/* Boutons */
+.stButton > button {
+    background: linear-gradient(90deg, #00FFFF, #FF00FF);
+    color: #0A0A0A;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+    .stButton > button:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 20px rgba(0,255,255,0.5);
+    }

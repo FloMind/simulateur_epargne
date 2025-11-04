@@ -3,6 +3,10 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
+# Charger le style futuriste
+with open("assets/style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
 st.set_page_config(page_title="Simulateur d'Épargne", layout="wide")
 
 st.title("💰 Simulateur d'Épargne et de Capitalisation")
