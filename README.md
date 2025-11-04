@@ -1,6 +1,6 @@
 # 💰 Simulateur d'Épargne et de Capitalisation
 
-Une application **Streamlit** simple et interactive pour simuler la croissance de ton épargne avec des intérêts composés.
+Une application **Streamlit** simple et interactive pour simuler la croissance de l'épargne avec des intérêts composés.
 
 ---
 
@@ -15,7 +15,7 @@ Une application **Streamlit** simple et interactive pour simuler la croissance d
 
 ---
 
-## ⚙️ Installation (version pro)
+## ⚙️ Installation 
 
 ```bash
 # Cloner le projet
