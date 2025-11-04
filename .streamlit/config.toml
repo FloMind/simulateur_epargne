@@ -1,7 +1,7 @@
 [theme]
-base="light"
-primaryColor="#0E4D92"
-backgroundColor="#F9FAFB"
-secondaryBackgroundColor="#FFFFFF"
-textColor="#2C3E50"
-font="sans serif"
+primaryColor = "#007AFF"                # Bleu MindEdge
+backgroundColor = "#F5F7FA"             # Fond clair moderne
+secondaryBackgroundColor = "#FFFFFF"    # Panneaux et cartes
+textColor = "#1E1E1E"                   # Texte foncé lisible
+font = "sans serif"                     # Police lisible (Roboto / Open Sans)
+
