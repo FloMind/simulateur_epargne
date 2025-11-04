@@ -5,7 +5,17 @@
 [![Poetry](https://img.shields.io/badge/Poetry-Environment%20Manager-8A2BE2?logo=poetry)](https://python-poetry.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Une application **Streamlit** simple et interactive pour simuler la croissance de l'épargne avec des intérêts composés.
+Une application **Streamlit** simple et interactive pour simuler la croissance de l’épargne avec intérêts composés.  
+Développée dans le cadre du projet **MindEdge Finance**
+
+---
+
+## 🚀 Démo en ligne
+
+👉 [Accéder à l’application sur Streamlit Cloud](https://simulateur-epargne.streamlit.app)
+
+![Aperçu de l’application](assets/preview.png)
+
 
 ---
 
