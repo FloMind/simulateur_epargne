@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "simulateur-epargne"
+version = "0.1.0"
+description = "Simulateur d'épargne et de capitalisation développé avec Streamlit."
+authors = ["Florent Cochet <flo@mindedge.ai>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.39.0"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+plotly = "^5.24.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

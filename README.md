@@ -1,0 +1,54 @@
+# 💰 Simulateur d'Épargne et de Capitalisation
+
+Une application **Streamlit** simple et interactive pour simuler la croissance de ton épargne avec des intérêts composés.
+
+---
+
+## 🚀 Fonctionnalités
+
+- Calcul automatique de la capitalisation mensuelle
+- Ajustement du capital initial, des versements, du taux d’intérêt et de la durée
+- Graphique dynamique d’évolution du capital (Plotly)
+- Design moderne, responsive et professionnel
+- Configuration de thème via `.streamlit/config.toml`
+- Environnement géré via **Poetry** (pro)
+
+---
+
+## ⚙️ Installation (version pro)
+
+```bash
+# Cloner le projet
+git clone https://github.com/FloMind/simulateur_epargne.git
+cd simulateur_epargne
+
+# Créer et activer l'environnement
+pip install poetry
+poetry install
+poetry shell
+
+# Lancer l'application
+streamlit run app.py
+```
+
+---
+
+## 🧱 Stack technique
+
+- **Python 3.10+**
+- **Streamlit** pour le front-end interactif
+- **Pandas / NumPy** pour les calculs
+- **Plotly** pour la visualisation
+- **Poetry** pour la gestion d'environnement
+
+---
+
+## 🧑‍💻 Auteur
+
+**Florent Cochet**  
+Projet développé dans le cadre de MindEdge Finance  
+[LinkedIn](https://www.linkedin.com/in/florentcochet) | [GitHub](https://github.com/FloMind)
+
+---
+
+© 2025 MindEdge - Tous droits réservés
